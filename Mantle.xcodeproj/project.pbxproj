@@ -836,7 +836,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D094E4831777619600906BF7 /* Debug.xcconfig */;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -847,7 +847,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D094E4851777619600906BF7 /* Release.xcconfig */;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -914,7 +914,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D094E4841777619600906BF7 /* Profile.xcconfig */;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -952,7 +952,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D094E4861777619600906BF7 /* Test.xcconfig */;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -996,6 +996,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Mantle/Info.plist;
+				MACH_O_TYPE = staticlib;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1010,6 +1011,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Mantle/Info.plist;
+				MACH_O_TYPE = staticlib;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1024,6 +1026,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Mantle/Info.plist;
+				MACH_O_TYPE = staticlib;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1038,6 +1041,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Mantle/Info.plist;
+				MACH_O_TYPE = staticlib;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
